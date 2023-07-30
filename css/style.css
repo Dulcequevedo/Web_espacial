@@ -1,0 +1,200 @@
+body{
+    background-color: hsl(233, 88%, 10%);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.texto-bienvenida{
+    font-size: 28px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+main .main-buttons a{
+    text-decoration: none;
+    outline: none;
+    color: #ecece9;
+}
+
+main .main-buttons{
+    /* vertical / horizontal */
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .main-buttons button{
+    border: 0;
+    height: 100px;
+    background-color: #c9c952;
+    font-size: 80px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 0 15px;
+    text-align: center;
+    font-family:'Handjet', cursive;
+}
+/*nos permite agregar diseño al poner el cursor sobre el elemento */
+main .main-input-container:hover{
+    box-shadow: 0 6px 10px 0 #deb902;
+}
+
+main .main-buttons button:hover{
+    color: #ffffff;
+    border: 1px solid #c9c952;
+    box-shadow: 0 4px 100px 0 #deb902;
+}
+
+main .pregunta1{
+    font-family: 'Handjet', cursive;
+    font-size: 50pt;
+    text-align: center;
+}
+
+
+main .botones-glosario{
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .botones-glosario button{
+    border: 0;
+    height: 70px;
+    background-color: #a5a5a4;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+main .botones-glosario button:hover{
+    color: #ffffff;
+    border: 1px solid #ecece4;
+    box-shadow: 0 2px 100px 0 #ecece9;
+}
+
+
+
+.titulo_principal {
+    color: #eff3d3;
+    font-size: 80pt;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    
+}
+
+.titulo_universo {
+    color: #9ABED6;
+    font-size: 50pt;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+    
+}
+
+.titulo_estrellas {
+    color: #9ABED6;
+    font-size: 30pt;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    
+}
+
+.parrafo_universo {
+    color: #d2d0b7;
+    font-size: 16pt;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.parrafo_estrellas {
+    color: #212328;
+    font-size: 14pt;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
+.Teorias {
+    color: #789cb4;
+    font-size: 20pt;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
+}
+
+.imagenes{
+    width: 50%;
+}
+
+body {
+    height: 400px;
+    background-image: url("https://st4.depositphotos.com/18803028/29828/i/600/depositphotos_298282426-stock-photo-2d-illustration-deep-vast-space.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+}  
+
+.Planetas ul{
+    display:inline-flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tarjeta{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+width:340px;
+border: 1px solid lightgray;
+box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+border-radius:15px;
+font-family: sans-serif;
+}
+.titulo{
+font-size: 24px;
+padding: 10px 10px 0 10px;;
+text-align: center;
+}
+.cuerpo{
+padding: 10px;
+}
+.pie{
+background: #6699ff;
+border-radius:0 0 15px 15px;
+padding: 10px;
+text-align:center;
+
+}
+.pie a{
+text-decoration: none;
+color: white;
+}
+.pie a:after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+}
+
+.imagenes-grandes{
+    width: 20%;
+}
+
+    
+    .caja{
+        height: 30px;
+        width: 430px;
+        /* quitar borde negro */
+        border: none;
+        /* quitar borde azul al hacer clic */
+        outline: none;
+    }
